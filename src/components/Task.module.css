@@ -1,0 +1,28 @@
+
+.newTaks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputTaks{
+  width: 46rem;
+  height: 3.375rem;
+  border-radius: 0.5rem;
+  background: var(--gray-500);
+  border: 0.125rem var(--gray-700) solid;
+
+  padding: 0.9rem;
+}
+
+.button{
+  width: 5.625rem;
+  height: 3.25rem;
+  
+  background:var(--blue-dark);
+  border-radius: 0.5rem;
+  border:none;
+  margin-left: 0.5rem;
+
+  color:var(--white);
+}

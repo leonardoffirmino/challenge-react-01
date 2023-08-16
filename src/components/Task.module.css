@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 0.5rem;
 }
 
 .inputTaks{
@@ -13,6 +14,8 @@
   border: 0.125rem var(--gray-700) solid;
 
   padding: 0.9rem;
+
+  outline: none;
 }
 
 .button{

@@ -16,6 +16,8 @@
   padding: 0.9rem;
 
   outline: none;
+
+  color: var(--white);
 }
 
 .button{
@@ -28,4 +30,6 @@
   margin-left: 0.5rem;
 
   color:var(--white);
+
+  cursor:pointer;
 }

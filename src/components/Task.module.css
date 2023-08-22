@@ -1,12 +1,11 @@
-
-.newTaks{
+.newTaks {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 0.5rem;
+
 }
 
-.inputTaks{
+.inputTaks {
   width: 46rem;
   height: 3.375rem;
   border-radius: 0.5rem;
@@ -20,16 +19,16 @@
   color: var(--white);
 }
 
-.button{
+.button {
   width: 5.625rem;
   height: 3.25rem;
-  
-  background:var(--blue-dark);
+
+  background: var(--blue-dark);
   border-radius: 0.5rem;
-  border:none;
+  border: none;
   margin-left: 0.5rem;
 
-  color:var(--white);
+  color: var(--white);
 
-  cursor:pointer;
+  cursor: pointer;
 }

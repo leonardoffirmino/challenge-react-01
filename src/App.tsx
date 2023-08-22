@@ -1,4 +1,5 @@
 import { Header } from './components/Header';
+import { InfoTaks } from './components/InfoTask';
 import { Taks } from './components/Task';
 
 
@@ -9,8 +10,10 @@ export function App() {
     <div>
       <Header />
 
-
       <Taks />
+
+      <InfoTaks />
+
     </div>
   )
 }

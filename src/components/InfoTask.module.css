@@ -1,16 +1,16 @@
 .InfoTaks {
-  width: 46rem;
-  height: 18rem;
-  border: 1px solid #ffff;
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 4rem;
-
 
 }
 
 
 .Info {
+
+  width: 46rem;
+  height: 18rem;
   display: flex;
   justify-content: space-between;
   color: #fff

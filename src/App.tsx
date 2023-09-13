@@ -3,6 +3,9 @@ import { InfoTaks } from './components/InfoTask';
 import { Taks } from './components/Task';
 
 
+import styles from './App.module.css';
+
+
 import './global.css';
 
 export function App() {
@@ -10,9 +13,14 @@ export function App() {
     <div>
       <Header />
 
-      <Taks />
+      <div className={styles.main}>
 
-      <InfoTaks />
+        <Taks />
+
+        <InfoTaks />
+
+      </div>
+
 
     </div>
   )

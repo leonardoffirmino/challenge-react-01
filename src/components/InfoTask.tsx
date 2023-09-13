@@ -18,7 +18,15 @@ export function InfoTaks() {
         </p>
 
 
+
       </div>
+
+      <div className={styles.InfoEmpty}>
+
+        <p>Você ainda não tem tarefas cadastradas </p>
+        <p>Crie tarefas e organize seus itens a fazer</p>
+      </div>
+
     </div>
   )
 }

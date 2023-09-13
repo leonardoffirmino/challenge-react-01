@@ -4,10 +4,11 @@
   align-items: center;
   height: 0.5rem;
 
+
 }
 
 .inputTaks {
-  width: 46rem;
+  width: 40rem;
   height: 3.375rem;
   border-radius: 0.5rem;
   background: var(--gray-500);

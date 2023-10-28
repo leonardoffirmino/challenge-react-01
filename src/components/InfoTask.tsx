@@ -1,10 +1,11 @@
 
 import styles from './InfoTask.module.css';
+import { ClipboardText } from 'phosphor-react';
 
 
 export function InfoTaks() {
   return (
-    <div className={styles.InfoTaks}>
+    <div className={styles.Taks}>
 
       <div className={styles.Info}>
         <p>
@@ -17,15 +18,18 @@ export function InfoTaks() {
           <span>0</span>
         </p>
 
-
-
       </div>
 
-      <div className={styles.InfoEmpty}>
+      <hr />
 
-        <p>Você ainda não tem tarefas cadastradas </p>
+      <div className={styles.Empty}>
+        <ClipboardText size={56} />
+        <strong>Você ainda não tem tarefas cadastradas </strong>
         <p>Crie tarefas e organize seus itens a fazer</p>
       </div>
+
+
+
 
     </div>
   )

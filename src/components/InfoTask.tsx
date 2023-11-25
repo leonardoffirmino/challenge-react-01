@@ -20,11 +20,11 @@ export function InfoTaks() {
 
       </div>
 
-      <hr />
+
 
       <div className={styles.Empty}>
         <ClipboardText size={56} />
-        <strong>Você ainda não tem tarefas cadastradas </strong>
+        <p>Você ainda não tem tarefas cadastradas </p>
         <p>Crie tarefas e organize seus itens a fazer</p>
       </div>
 

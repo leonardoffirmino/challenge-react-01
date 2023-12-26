@@ -1,13 +1,10 @@
-.header {
-  background: var(--gray-700);
+.container {
   display: flex;
+  flex: 1;
+  align-items: center;
   justify-content: center;
 
-  padding: 4.5rem 0;
+  padding: 5rem 0.625rem;
 
-  height:12.5rem;
-}
-
-.header img {
-  height: 2.3rem;
+  background-color: var(--gray-700);
 }

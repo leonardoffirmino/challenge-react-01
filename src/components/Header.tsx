@@ -1,13 +1,9 @@
-import styles from './Header.module.css';
-
-import logoImage from '../assets/Logo.svg';
-
-
+import styles from './Header.module.css'
 
 export function Header() {
   return (
-    <header className={styles.header}>
-      <img src={logoImage} alt="Logotipo principal do projeto de todo list" />
+    <header className={styles.container}>
+      <img src="/logo.svg" alt="logo da aplicação" />
     </header>
   )
 }
